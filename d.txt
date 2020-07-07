@@ -1,0 +1,79 @@
+17:28:49.364569 == Info:   Trying 127.0.0.1...
+17:28:49.364783 == Info: TCP_NODELAY set
+17:28:49.364997 == Info: Connected to localhost (127.0.0.1) port 3000 (#0)
+17:28:49.365084 => Send header, 87 bytes (0x57)
+0000: GET /api/books HTTP/1.1
+0019: Host: localhost:3000
+002f: User-Agent: curl/7.58.0
+0048: Accept: */*
+0055: 
+17:28:49.416779 <= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+17:28:49.416845 <= Recv header, 23 bytes (0x17)
+0000: X-Powered-By: Express
+17:28:49.416867 <= Recv header, 32 bytes (0x20)
+0000: Access-Control-Allow-Origin: *
+17:28:49.416887 <= Recv header, 93 bytes (0x5d)
+0000: Access-Control-Allow-Headers: Origin, X-Requested-With, Content-
+0040: Type, Accept, Authorization
+17:28:49.416913 <= Recv header, 47 bytes (0x2f)
+0000: Content-Type: application/json; charset=utf-8
+17:28:49.416934 <= Recv header, 22 bytes (0x16)
+0000: Content-Length: 2968
+17:28:49.416953 <= Recv header, 43 bytes (0x2b)
+0000: ETag: W/"b98-+2Z/RDFzZP0gZFaw2Bch6aYFRLM"
+17:28:49.416972 <= Recv header, 37 bytes (0x25)
+0000: Date: Tue, 03 Mar 2020 14:28:49 GMT
+17:28:49.416992 <= Recv header, 24 bytes (0x18)
+0000: Connection: keep-alive
+17:28:49.417010 <= Recv header, 2 bytes (0x2)
+0000: 
+17:28:49.417025 <= Recv data, 2968 bytes (0xb98)
+0000: [{"_id":"5e5631fe22cf01342ec1efe4","__v":0},{"_id":"5e56320722cf
+0040: 01342ec1efe5","__v":0},{"_id":"5e5632f402efc234ab3b3340","__v":0
+0080: },{"_id":"5e5633c2e29e2235172cda21","__v":0},{"_id":"5e563410e29
+00c0: e2235172cda22","__v":0},{"_id":"5e5634d302950f3580b71b1f","__v":
+0100: 0},{"_id":"5e56383082bfe137175ebf47","__v":0},{"_id":"5e56386c82
+0140: bfe137175ebf48","__v":0},{"_id":"5e5638aee598b93761e6471e","__v"
+0180: :0},{"_id":"5e5638fee598b93761e6471f","__v":0},{"_id":"5e563988c
+01c0: c255237cf82b5a3","__v":0},{"_id":"5e563a87cc255237cf82b5a4","__v
+0200: ":0},{"_id":"5e563a87cc255237cf82b5a5","__v":0},{"_id":"5e563d31
+0240: 19cd17394b2046fa","__v":0},{"_id":"5e563e1b2b53a43a20ffd8dc","__
+0280: v":0},{"_id":"5e563e702b53a43a20ffd8dd","__v":0},{"_id":"5e563e8
+02c0: dabd0b53a59bcafe6","title":"today","author":"mary","pages":"67",
+0300: "__v":0},{"_id":"5e5645e68e49e23cd4c05b1f","title":"today","auth
+0340: or":"mary","pages":"67","__v":0},{"_id":"5e56462ee31ffb3d587ee6a
+0380: e","title":"Merchant of Venice","author":"Shakespere","pages":"7
+03c0: 65","__v":0},{"_id":"5e564651e31ffb3d587ee6af","title":"Kifo Kis
+0400: imani","author":"Bokono","pages":"098","__v":0},{"_id":"5e56598e
+0440: 7fb8ed4388e22839","__v":0},{"_id":"5e5659a97fb8ed4388e2283a","ti
+0480: tle":"Kifo Kisimani","author":"Bokono","pages":"098","__v":0},{"
+04c0: _id":"5e5659e57fb8ed4388e2283c","title":"Kifo Kisimani","author"
+0500: :"Bokono","pages":"098","__v":0},{"_id":"5e5659f77fb8ed4388e2283
+0540: d","title":"Kifo Kisimani","author":"Bokono","pages":"098","__v"
+0580: :0},{"_id":"5e57bbcc3ac4b25d5a917bf0","title":"River ","author":
+05c0: "john","pages":"105","__v":0},{"_id":"5e57bc013ac4b25d5a917bf1",
+0600: "title":"Pizza","author":"john","pages":"105","__v":0},{"_id":"5
+0640: e57bc2e3ac4b25d5a917bf2","title":"River ","author":"johnryw7reyr
+0680: y","pages":"105","__v":0},{"_id":"5e57bc7f3ac4b25d5a917bf3","tit
+06c0: le":"River ","author":"johnryw7reyry","pages":"105","__v":0},{"_
+0700: id":"5e57bcfa3ac4b25d5a917bf4","title":"River and the thee sourc
+0740: e ","author":"jane wa mareuuiei kenyan","pages":"1050","__v":0},
+0780: {"_id":"5e57bd794d12525e0f1da07b","title":"Uhuru Wiuhrhgjjjgj","
+07c0: author":"Ngugi wa Thiong'o","pages":"098","__v":0},{"_id":"5e57c
+0800: 1f1f0b67d5e84c6cab8","title":"River seed","author":"jane mui","p
+0840: ages":"7009","__v":0},{"_id":"5e5c9e8839953112128f9efa","title":
+0880: "The best day","author":"john doe murigiii","pages":"900","__v":
+08c0: 0},{"_id":"5e5cf2f998533b41a6a3b4e7","title":"Till","author":"Ju
+0900: ne","pages":"999","__v":0},{"_id":"5e5cf34b98533b41a6a3b4e8","ti
+0940: tle":"when the sun goes down","author":"Henry Parker","pages":"9
+0980: 99","__v":0},{"_id":"5e5db9d6891a820d2b418164","__v":0,"title":"
+09c0: mondattyy"},{"_id":"5e5dea814d36f50fd44d1ef6","title":"when the 
+0a00: sun goes goes down down","author":"Henry Parker","pages":"99009"
+0a40: ,"__v":0},{"_id":"5e5e157cbb7523230109897e","title":"today is tu
+0a80: esday","__v":0},{"_id":"5e5e22104ab7d02abd092be8","title":"Hawai
+0ac0:  traders","author":"Mary","pages":"789","__v":0},{"_id":"5e5e233
+0b00: f4ab7d02abd092be9","title":"treth","author":"hujk","__v":0},{"_i
+0b40: d":"5e5e33dc453c2a12623195f0","title":"theo","author":"tuutuut",
+0b80: "pages":"5798","__v":0}]
+17:28:49.417419 == Info: Connection #0 to host localhost left intact
